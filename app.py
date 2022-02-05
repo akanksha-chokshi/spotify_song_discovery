@@ -54,7 +54,7 @@ tempo = st.sidebar.slider(
 def ms_to_mins (ms):
     mins = (ms/1000)/60
     secs = (ms/1000)%60
-    res = str(round(mins, 2)) + " min " + str(round(secs,)) + " s"
+    res = str(round(mins, 0)) + " min " + str(round(secs,)) + " s"
     return res
 
 def n_neighbors_uri_audio(genre, start_year, end_year, test_feat):
