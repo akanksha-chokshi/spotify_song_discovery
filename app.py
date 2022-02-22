@@ -240,3 +240,9 @@ with st.container():
 
     else:
         st.write("No songs left to recommend")
+
+with st.expander("What I Learned From This Project"):
+    st.markdown("I learned how to customise the Streamlit interface even more through Session States.")
+    st.markdown("I learned how to use Plotly to visualise the audio features through graphs.")
+    st.markdown("I added more nuanced data analysis features through the details I displayed for each song.")
+    st.markdown("I used K-means clustering from scikit-learn to find the songs I recommended.")
